@@ -123,6 +123,16 @@
     grid-template-columns: repeat( auto-fit, minmax(370px, 1fr) );
 
 }
+.last{
+    background: scroll;
+    min-height: 450px;
+    background:linear-gradient(rgba(197, 40, 12, 0.541),rgba(243, 36, 21, 0.651)),  url('../../img/developer-experience-header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
 
 
 
