@@ -1,0 +1,18 @@
+.fotter-main{
+    min-height: 350px;
+    background-color: black;
+}
+.div-main{
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.habib{
+    color: tomato;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    text-align: center;
+    min-height: 70px;
+    background-color: rgba(34, 26, 26, 0.247);
+}

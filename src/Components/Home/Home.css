@@ -1,166 +1,149 @@
-.section1-css{
-    background-color: rgb(230, 76, 68);
-    color: aliceblue;
-    display: grid;
-    gap: 25px;
-    grid-template-columns: repeat( auto-fit, minmax(290px, 1fr) );
-    margin-top: -70px;
+.section1-css {
+  background-color: rgb(230, 76, 68);
+  color: aliceblue;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  margin-top: -70px;
 }
-.Card-css{
+.Card-css {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+}
+.card-size {
+  width: 23rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.btn-css {
+  font-weight: 500;
+  padding: 8px 18px;
+  color: tomato;
+  border: 1px solid tomato;
+}
+.team1 {
+  min-height: 370px;
+  width: 330px;
+  display: flex;
+  align-items: flex-end;
+  background: url("../../img/team_01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.team1:hover {
+  background: linear-gradient(rgba(241, 58, 34, 0.596), rgba(233, 33, 7, 0.637)),
+    url("../../img/team_01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.6s ease-in-out;
+  transform: scale(1.05);
+}
+.team2 {
+  min-height: 370px;
+  width: 330px;
+  display: flex;
+  align-items: flex-end;
+  background: url("../../img/team_02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.team2:hover {
+  background: linear-gradient(rgba(241, 58, 34, 0.596), rgba(233, 33, 7, 0.589)),
+    url("../../img/team_02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.6s ease-in-out;
+  transform: scale(1.05);
+}
+.team3 {
+  min-height: 370px;
+  width: 330px;
+  display: flex;
+  align-items: flex-end;
+  background: url("../../img/team_03.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.team3:hover {
+  transition: 0.6s ease-in-out;
+  transform: scale(1.05);
+  background: linear-gradient(rgba(241, 58, 34, 0.596), rgba(233, 33, 7, 0.637)),
+    url("../../img/team_03.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.team4 {
+  display: flex;
+  align-items: flex-end;
+  min-height: 370px;
+  width: 330px;
+  background: url("../../img/team_04.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.team4:hover {
+  transition: 0.6s ease-in-out;
+  transform: scale(1.05);
+  background: linear-gradient(rgba(241, 58, 34, 0.596), rgba(233, 33, 7, 0.692)),
+    url("../../img/team_04.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-css {
+  display: flex;
+  justify-content: space-evenly;
+}
 
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat( auto-fit, minmax(390px, 1fr) );
+.img-h {
+  margin-bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.74);
+}
+.feature {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-main {
+  padding: 5px;
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+}
+.last {
+  background: scroll;
+  min-height: 450px;
+  background: linear-gradient(
+      rgba(197, 40, 12, 0.541),
+      rgba(243, 36, 21, 0.651)
+    ),
+    url("../../img/developer-experience-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
-}
-.card-size{
-    width: 23rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-}
-.btn-css{
-    font-weight: 500;
-    padding: 8px 18px;
-    color: tomato;
-    border: 1px solid tomato;
-}
-.team1{
-    min-height: 370px;
-    width: 330px;
-    display: flex;
-    align-items: flex-end;
-    background: url('../../img/team_01.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
-.team1:hover{
-    background:linear-gradient(rgba(241, 58, 34, 0.596),rgba(233, 33, 7, 0.637)),  url('../../img/team_01.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition: 0.6s ease-in-out;
-    transform: scale(1.05);
-}
-.team2{
-    min-height: 370px;
-    width: 330px;
-    display: flex;
-    align-items: flex-end;
-    background: url('../../img/team_02.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.team2:hover{
-    background:linear-gradient(rgba(241, 58, 34, 0.596),rgba(233, 33, 7, 0.589)),  url('../../img/team_02.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition: 0.6s ease-in-out;
-   transform: scale(1.05);
-}
-.team3{
-    min-height: 370px;
-    width: 330px;
-    display: flex;
-    align-items: flex-end;
-    background: url('../../img/team_03.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.team3:hover{
-    transition: 0.6s ease-in-out;
-    transform: scale(1.05);
-    background:linear-gradient(rgba(241, 58, 34, 0.596),rgba(233, 33, 7, 0.637)),  url('../../img/team_03.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.team4{
-    display: flex;
-    align-items: flex-end;
-    min-height: 370px;
-    width: 330px;
-    background: url('../../img/team_04.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.team4:hover{
-    transition: 0.6s ease-in-out;
-    transform: scale(1.05);
-    background:linear-gradient(rgba(241, 58, 34, 0.596),rgba(233, 33, 7, 0.692)),  url('../../img/team_04.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.img-css{
-  
-    display:flex;
+@media screen and (max-width: 450px) {
+  .card-size {
+    width: 18rem;
+  }
+  .img-css {
+    display: block;
     justify-content: space-evenly;
-}
-
-.img-h{
-    margin-bottom: 0;
-    text-align: center;
-    width: 100%;
-    padding: 40px;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.74);
-}
-.feature{
-    
-    display: flex;
-    justify-content: space-between;
-}
-.feature-main{
-   
-    padding: 5px;
-    display: grid;
-    grid-gap: 35px;
-    grid-template-columns: repeat( auto-fit, minmax(370px, 1fr) );
-
-}
-.last{
-    background: scroll;
-    min-height: 450px;
-    background:linear-gradient(rgba(197, 40, 12, 0.541),rgba(243, 36, 21, 0.651)),  url('../../img/developer-experience-header.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:450px){
-    
-    .card-size{
-        width: 18rem;
-    }
-    .img-css{
-        display:block;
-        justify-content: space-evenly;
-    }
-    .feature{
-        width: 290px;
-        padding: 10px;
-       display: block;
-       
-    }
-    
-    
+  }
+  .feature {
+    width: 290px;
+    padding: 10px;
+    display: block;
+  }
 }

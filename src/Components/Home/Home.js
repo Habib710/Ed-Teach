@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import { Link,   } from 'react-router-dom';
 import Card from 'react-bootstrap/Card'
 import Banner from '../Banner/Banner'
 import {
@@ -14,7 +14,7 @@ import {
   faCertificate,
   faBook,
 } from '@fortawesome/free-solid-svg-icons'
-import './Home.css';
+import './Home.css'
 import pp from '../../img/testi_01.png'
 
 const Home = () => {
@@ -76,7 +76,8 @@ const Home = () => {
               <Card.Body>
                 <Card.Title>{service.name}</Card.Title>
                 <Card.Text>{service.about}</Card.Text>
-                <button className="btn btn-css">Enroll Now</button>
+                <Link to={'/service/'+service.name}>
+                <button className="btn btn-css">Enroll Now</button></Link>
               </Card.Body>
             </Card>
           ))}
@@ -86,7 +87,7 @@ const Home = () => {
 
       <section className="container">
         <h1 className="text-center pt-5">Our Instructors</h1>
-        <hr className="w-25 m-auto my-3  c-tomato fw-bolder" />
+        <hr className="w-25 m-auto my-5  c-tomato fw-bolder" />
         <h4 className="text-center pb-5">Meet Our Awesome & Creative Team</h4>
 
         <div className="img-css pb-5">
@@ -217,15 +218,20 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className='last py-5'>
-        <div className='text-center container text-white pt-5 mt-5'>
-        <img src={pp} alt="img" />
-        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quis nihil deserunt odit laudantium, ad est reiciendis aliquid labore magnam optio facere et accusamus numquam! Recusandae iste placeat sapiente aut!</h4>
-        <h5> Md Habib <br /> - CEO , Ed Teach Ltd. </h5>
-
+      <section className="last py-5">
+        <div className="text-center container text-white pt-5 mt-5">
+          <img src={pp} alt="img" />
+          <h4>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+            quis nihil deserunt odit laudantium, ad est reiciendis aliquid
+            labore magnam optio facere et accusamus numquam! Recusandae iste
+            placeat sapiente aut!
+          </h4>
+          <h5>
+            {' '}
+            Md Habib <br /> - CEO , Ed Teach Ltd.{' '}
+          </h5>
         </div>
-
-
       </section>
     </div>
   )

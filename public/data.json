@@ -34,6 +34,16 @@
       "category": "normal",
       "about": "Some quick example text to build on the card title and make up the bulk of the c  Some quick example text to build on the card title and make up thes content.ard",
       "name": "Graphic design"
+    },
+    
+    {
+      "_id": 5,
+      "price": 2700,
+      "Discount": 400,
+      "pic": "/images/GG.jpg",
+      "category": "normal",
+      "about": "Some quick example text to build on the card title and make up the bulk of the c  Some quick example text to build on the card title and make up thes content.ard",
+      "name": "Content writing"
     }
     
   ]
