@@ -15,8 +15,8 @@ const Header = () => {
     signOut(auth)
   }
   return (
-    <Navbar collapseOnSelect className="navbar" expand="lg" variant="dark">
-      <Container>
+    <Navbar collapseOnSelect className="navbar px-4" expand="lg" variant="white">
+    
         <Navbar.Brand className=" fw-2 fs-1 text-dark">
           <span className="c-tomato">Ed</span> Teach
         </Navbar.Brand>
@@ -38,7 +38,7 @@ const Header = () => {
             {user ? <img className='p-img ms-4'   src={user.photoURL} alt="img" /> : ''}
           </Nav>
         </Navbar.Collapse>
-      </Container>
+     
     </Navbar>
   )
 }

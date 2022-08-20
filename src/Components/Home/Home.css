@@ -3,13 +3,13 @@
   color: aliceblue;
   display: grid;
   gap: 25px;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   margin-top: -70px;
 }
 .Card-css {
   display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+  gap: 35px;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
 }
 .card-size {
   width: 23rem;
@@ -118,7 +118,7 @@
   padding: 5px;
   display: grid;
   grid-gap: 35px;
-  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .last {
   background: scroll;
