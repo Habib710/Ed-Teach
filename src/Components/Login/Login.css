@@ -1,0 +1,90 @@
+.form-custom-css{
+    max-width:380px;
+    background: rgb(255, 255, 255);
+ 
+    text-align: center;
+    
+    padding-top: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   
+   
+}
+.login-main-div{
+    padding: 0;
+    background:linear-gradient(rgba(24, 20, 20, 0.788),
+    rgba(223, 74, 67)), url('../../img/course_03.png');
+    font-weight: 600;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-input-css{
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 25px;
+   
+
+    
+    
+}
+.input-css input{
+    width: 100%;
+    height: 45px;
+    border: none ;
+    border-bottom: 1px solid black;
+   margin-top: 20px;
+   outline: none;
+  
+}
+.submit-css{
+    background-color: rgb(240, 77, 48);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.custom-css-spiner{
+    font-size: 25px;
+   
+
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%);
+    margin: 10px;
+    padding: 10px 95px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(8, 8, 8);            
+    box-shadow: 0 0 20px rgba(148, 112, 89, 0.616);
+    border-radius: 10px;
+   border: none;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+.google-css{
+    background-color: rgba(238, 151, 101, 0.411);
+    border: none;
+    color: rgb(2, 2, 2);
+    font-weight: 500;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+
+}
+.link-css{
+    text-decoration: none;
+}

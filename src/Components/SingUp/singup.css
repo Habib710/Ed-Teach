@@ -1,0 +1,13 @@
+.singup-custom{
+   
+    max-width: 600px;
+}
+.singup-custom-div{
+    background:linear-gradient(rgba(31, 29, 29, 0.596),
+    rgba(223, 74, 67)), url('../../img/course_02.png');
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

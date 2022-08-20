@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useEffect, useState } from 'react';
 import { Link,   } from 'react-router-dom';
-import Card from 'react-bootstrap/Card'
+import Card from 'react-bootstrap/Card';
+import 'animate.css';
 import Banner from '../Banner/Banner'
 import {
   faBookReader,
@@ -16,6 +17,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import './Home.css'
 import pp from '../../img/testi_01.png'
+import { Fade, Slide } from 'react-reveal';
 
 const Home = () => {
   const [services, setservices] = useState([])
@@ -30,6 +32,7 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <section className="container ">
+      <Fade bottom>
         <div className="section1-css">
           <div className="p-5">
             <FontAwesomeIcon
@@ -65,9 +68,12 @@ const Home = () => {
             </p>
           </div>
         </div>
+        </Fade>
       </section>
       <section className="container py-5">
-        <h2 className="text-center py-4 ">OUR SERVICES</h2>
+      <Slide right>
+        <h2 className="text-center py-4  ">OUR SERVICES</h2>
+        </Slide>
         <hr className="w-25 m-auto mb-5 c-tomato fw-2" />
         <div className="Card-css">
           {services.map((service) => (
@@ -86,7 +92,7 @@ const Home = () => {
       {/* our instractor....... */}
 
       <section className="container">
-        <h1 className="text-center pt-5">Our Instructors</h1>
+        <h1 className="text-center pt-5">   <Slide right>Our Instructors</Slide></h1>
         <hr className="w-25 m-auto my-5  c-tomato fw-bolder" />
         <h4 className="text-center pb-5">Meet Our Awesome & Creative Team</h4>
 

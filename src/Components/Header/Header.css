@@ -9,3 +9,24 @@
 .navbar{
     background-color: rgb(247, 247, 247);
 }
+.btn-singout{
+    background-image: linear-gradient(to right, #f78254d8 0%, #aa0505  51%, #f3773d  100%);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 19px;
+    border: none;
+    transition: .6s;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgb(243, 130, 55);
+    background-size: 200% auto;
+    text-transform: uppercase;
+}
+         
+
+
+  .btn-singout:hover {
+    background-position: right center;
+    color: azure; /* change the direction of the change here */
+   
+  }
+ 
