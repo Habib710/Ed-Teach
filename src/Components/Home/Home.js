@@ -7,12 +7,15 @@ import {
   faBookReader,
   faUser,
   faMessage,
+  faLaptop,
+  faUsers,
+  faFilm,
+  faChartLine,
+  faCertificate,
+  faBook
 } from '@fortawesome/free-solid-svg-icons'
 import './Home.css';
-import team1 from '../../img/team_01.jpg'
-import team2 from '../../img/team_02.jpg'
-import team3 from '../../img/team_03.jpg'
-import team4 from '../../img/team_04.jpg'
+
 
 const Home = () => {
   const [services, setservices] = useState([])
@@ -105,8 +108,82 @@ const Home = () => {
         </div>
 
       </section>
+{/* Our Features */}
+      <section className='container py-5'>
+        <h1 className='text-center py-3'>Our Features</h1>
+        <hr className='w-25 m-auto my-2  c-tomato fw-bolder' />
+        <h5 className='text-center py-5'>Why You Should Purchase This Template</h5>
 
-      <section>
+        <div className='feature-main py-5'>
+
+          <div className='feature'>
+            <div className='px-3 '>
+         <FontAwesomeIcon className='fs-1 c-tomato' icon={faLaptop}></FontAwesomeIcon>
+         </div>
+          
+          <div>
+            <h3>Learn Online</h3>
+            <hr className='w-25  my-2  c-tomato fw-bolder' />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiing elit. Integer lorem quam, adipiscing vel condimentum tristique. Read More</p>
+          </div>
+          </div>
+          <div className='feature'>
+          <div className='px-3'>
+         <FontAwesomeIcon className='fs-1 c-tomato' icon={faUsers}></FontAwesomeIcon>
+         </div>
+          
+          <div>
+            <h3>Expert Professors</h3>
+            <hr className='w-25  my-2  c-tomato fw-bolder' />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiing elit. Integer lorem quam, adipiscing vel condimentum tristique. Read More</p>
+          </div>
+          </div>
+          <div className='feature'>
+          <div className='px-3'>
+         <FontAwesomeIcon className='fs-1 c-tomato' icon={faFilm}></FontAwesomeIcon>
+         </div>
+          
+          <div>
+            <h3>Video & Audio Courses</h3>
+            <hr className='w-25  my-2  c-tomato fw-bolder' />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiing elit. Integer lorem quam, adipiscing vel condimentum tristique. Read More</p>
+          </div>
+          </div>
+          <div className='feature'>
+          <div className='px-3'>
+         <FontAwesomeIcon className='fs-1 c-tomato' icon={faChartLine}></FontAwesomeIcon>
+         </div>
+          
+          <div>
+            <h3>Communicate With People</h3>
+            <hr className='w-25  my-2  c-tomato fw-bolder' />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiing elit. Integer lorem quam, adipiscing vel condimentum tristique. Read More</p>
+          </div>
+          </div>
+          <div className='feature'>
+          <div className='px-3'>
+         <FontAwesomeIcon className='fs-1 c-tomato' icon={faCertificate}></FontAwesomeIcon>
+         </div>
+          
+          <div>
+            <h3>Trusted Certifications</h3>
+            <hr className='w-25  my-2  c-tomato fw-bolder' />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiing elit. Integer lorem quam, adipiscing vel condimentum tristique. Read More</p>
+          </div>
+          </div>
+          <div className='feature'>
+          <div className='px-3'>
+         <FontAwesomeIcon className='fs-1 c-tomato' icon={faBook}></FontAwesomeIcon>
+         </div>
+          
+          <div>
+            <h3>Professional Courses</h3>
+            <hr className='w-25  my-2  c-tomato fw-bolder' />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiing elit. Integer lorem quam, adipiscing vel condimentum tristique. Read More</p>
+          </div>
+          </div>
+
+        </div>
         
       </section>
     </div>

@@ -39,6 +39,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: 0.6s ease-in-out;
+    transform: scale(1.05);
 }
 .team2{
     min-height: 370px;
@@ -55,6 +57,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: 0.6s ease-in-out;
+   transform: scale(1.05);
 }
 .team3{
     min-height: 370px;
@@ -67,6 +71,8 @@
     background-size: cover;
 }
 .team3:hover{
+    transition: 0.6s ease-in-out;
+    transform: scale(1.05);
     background:linear-gradient(rgba(241, 58, 34, 0.596),rgba(233, 33, 7, 0.637)),  url('../../img/team_03.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -83,6 +89,8 @@
     background-size: cover;
 }
 .team4:hover{
+    transition: 0.6s ease-in-out;
+    transform: scale(1.05);
     background:linear-gradient(rgba(241, 58, 34, 0.596),rgba(233, 33, 7, 0.692)),  url('../../img/team_04.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -102,7 +110,19 @@
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.74);
 }
+.feature{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.feature-main{
+   
+    padding: 5px;
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat( auto-fit, minmax(370px, 1fr) );
 
+}
 
 
 
@@ -124,6 +144,12 @@
     .img-css{
         display:block;
         justify-content: space-evenly;
+    }
+    .feature{
+        width: 290px;
+        padding: 10px;
+       display: block;
+       
     }
     
     
