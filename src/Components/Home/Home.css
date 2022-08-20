@@ -6,3 +6,125 @@
     grid-template-columns: repeat( auto-fit, minmax(290px, 1fr) );
     margin-top: -70px;
 }
+.Card-css{
+
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat( auto-fit, minmax(390px, 1fr) );
+
+}
+.card-size{
+    width: 23rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.btn-css{
+    font-weight: 500;
+    padding: 8px 18px;
+    color: tomato;
+    border: 1px solid tomato;
+}
+.team1{
+    min-height: 370px;
+    width: 330px;
+    display: flex;
+    align-items: flex-end;
+    background: url('../../img/team_01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.team1:hover{
+    background:linear-gradient(rgba(241, 58, 34, 0.596),rgba(233, 33, 7, 0.637)),  url('../../img/team_01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team2{
+    min-height: 370px;
+    width: 330px;
+    display: flex;
+    align-items: flex-end;
+    background: url('../../img/team_02.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team2:hover{
+    background:linear-gradient(rgba(241, 58, 34, 0.596),rgba(233, 33, 7, 0.589)),  url('../../img/team_02.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team3{
+    min-height: 370px;
+    width: 330px;
+    display: flex;
+    align-items: flex-end;
+    background: url('../../img/team_03.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team3:hover{
+    background:linear-gradient(rgba(241, 58, 34, 0.596),rgba(233, 33, 7, 0.637)),  url('../../img/team_03.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team4{
+    display: flex;
+    align-items: flex-end;
+    min-height: 370px;
+    width: 330px;
+    background: url('../../img/team_04.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team4:hover{
+    background:linear-gradient(rgba(241, 58, 34, 0.596),rgba(233, 33, 7, 0.692)),  url('../../img/team_04.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-css{
+  
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.img-h{
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:450px){
+    
+    .card-size{
+        width: 18rem;
+    }
+    .img-css{
+        display:block;
+        justify-content: space-evenly;
+    }
+    
+    
+}

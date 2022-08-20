@@ -1,0 +1,39 @@
+[
+    {
+      "_id": 1,
+      "price": 5500,
+      "Discount": 500,
+      "pic": "/images/course_03.png",
+      "category": "normal",
+      "about": "Some quick example text to build on the card title and make up the bulk of the c  Some quick example text to build on the card title and make up thes content.ard",
+      "name": "Web Development"
+    },
+    {
+      "_id": 2,
+      "price": 4500,
+      "Discount": 400,
+      "pic": "/images/course_02.png",
+      "category": "normal",
+      "about": "Some quick example text to build on the card title and make up the bulk of the c  Some quick example text to build on the card title and make up thes content.ard",
+      "name": "Photograph "
+    },
+    {
+      "_id": 3,
+      "price": 1500,
+      "Discount": 300,
+      "pic": "/images/course_01.png",
+      "category": "normal",
+      "about": "Some quick example text to build on the card title and make up the bulk of the c  Some quick example text to build on the card title and make up thes content.ard",
+      "name": "Cooking learn"
+    },
+    {
+      "_id": 4,
+      "price": 2000,
+      "Discount": 200,
+      "pic": "/images/download.jpg",
+      "category": "normal",
+      "about": "Some quick example text to build on the card title and make up the bulk of the c  Some quick example text to build on the card title and make up thes content.ard",
+      "name": "Graphic design"
+    }
+    
+  ]
