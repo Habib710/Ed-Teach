@@ -35,6 +35,7 @@ const Header = () => {
               <CustomLink to="/login">Login</CustomLink>
             )}
             {user ? '' : <CustomLink to="/signup">SingUp</CustomLink>}
+            {user ? <img className='p-img ms-4'   src={user.photoURL} alt="img" /> : ''}
           </Nav>
         </Navbar.Collapse>
       </Container>

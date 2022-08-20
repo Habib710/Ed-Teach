@@ -113,11 +113,14 @@ const Home = () => {
       </section>
       {/* Our Features */}
       <section className="container py-5">
+      <Slide right>
         <h1 className="text-center py-3">Our Features</h1>
+        </Slide>
         <hr className="w-25 m-auto my-2  c-tomato fw-bolder" />
+        <Slide top>
         <h5 className="text-center py-5">
           Why You Should Purchase This Template
-        </h5>
+        </h5></Slide>
 
         <div className="feature-main py-5">
           <div className="feature">

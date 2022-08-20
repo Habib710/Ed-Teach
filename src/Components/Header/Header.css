@@ -17,7 +17,7 @@
     border: none;
     transition: .6s;
     border-radius: 15px;
-    box-shadow: 0 0 50px rgb(243, 130, 55);
+    box-shadow: 0 0 20px rgba(148, 80, 35, 0.418);
     background-size: 200% auto;
     text-transform: uppercase;
 }
@@ -28,5 +28,11 @@
     background-position: right center;
     color: azure; /* change the direction of the change here */
    
+  }
+  .p-img{
+    box-shadow: 0 0 30px rgba(238, 49, 16, 0.747);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
   }
  
