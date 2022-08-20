@@ -1,0 +1,19 @@
+.banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.055),rgba(2, 2, 2, 0.274)),  url('../../img/slider_03.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90Vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.c-tomato{
+    color: tomato;
+}
+.heading{
+    font-size: 50px;
+    font-weight: 600;
+}

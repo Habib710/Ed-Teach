@@ -1,0 +1,8 @@
+.section1-css{
+    background-color: rgb(230, 76, 68);
+    color: aliceblue;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat( auto-fit, minmax(290px, 1fr) );
+    margin-top: -70px;
+}
