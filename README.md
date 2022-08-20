@@ -1,15 +1,23 @@
-# Getting Started with Create React App
+# Ed Teach company 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project Live Link  [Create React App](https://ed-teach.web.app).
 
-## Available Scripts
+## Used Framworks
 
 In the project directory, you can run:
+* React Js
+* react-Brootstarp
+* React Router
+* Firebase 
+* react frontaswasome
+* animation
+* coustom css 
+* and some react laibary 
 
-### `npm start`
+### Live Link
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://ed-teach.web.app](https://ed-teach.web.app) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
